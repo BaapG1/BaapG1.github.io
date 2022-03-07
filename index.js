@@ -73,12 +73,12 @@ const VIDEOS = [
   'BaapG1.mp4',
   'BaapG2.mp4',
   'BaapG3.mp4',
+  'BaapG4.mp4',
   'BaapG.mp4',
   'BaapG1.mp4',
   'BaapG2.mp4',
   'BaapG3.mp4',
-  'BaapG.mp4',
-  'BaapG1.mp4'
+  'BaapG4.mp4'
 ]
 
 const FILE_DOWNLOADS = [
@@ -86,8 +86,8 @@ const FILE_DOWNLOADS = [
   'BaapG1.mp4',
   'BaapG2.mp4',
   'BaapG3.mp4',
+  'BaapG4.jpg',
   'BaapG.jpg',
-  'cat-marshmellows.jpg',
   'cat-small-face.jpg',
   'cat-smirk.jpg',
   'patreon.png'
