@@ -73,12 +73,12 @@ const VIDEOS = [
   'BaapG1.mp4',
   'BaapG2.mp4',
   'BaapG3.mp4',
-  'BaapG4.mp4',
-  'BaapG5.mp4',
-  'BaapG6.mp4',
-  'BaapG7.mp4',
-  'BaapG8.mp4',
-  'https://bit.do/ILove-You'
+  'BaapG.mp4',
+  'BaapG1.mp4',
+  'BaapG2.mp4',
+  'BaapG3.mp4',
+  'BaapG.mp4',
+  'BaapG1.mp4'
 ]
 
 const FILE_DOWNLOADS = [
@@ -426,7 +426,7 @@ function animateUrlWithEmojis () {
 
       for (i = 0; i < 10; i++) {
         m = Math.floor(e.length * ((Math.sin((Date.now() / 100) + i) + 1) / 2))
-        s += '👶' + e[m]
+        s += '⚠️' + e[m]
       }
 
       window.location.hash = s
