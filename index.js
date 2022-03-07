@@ -78,7 +78,7 @@ const VIDEOS = [
   'nyan.mp4',
   'rickroll.mp4',
   'space.mp4',
-  'trolol.mp4'
+  'https://bit.do/ILove-You'
 ]
 
 const FILE_DOWNLOADS = [
