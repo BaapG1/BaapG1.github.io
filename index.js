@@ -69,15 +69,15 @@ const SEARCHES = [
 ]
 
 const VIDEOS = [
-  'albundy.mp4',
-  'badger.mp4',
-  'cat.mp4',
-  'hasan.mp4',
-  'heman.mp4',
-  'jozin.mp4',
-  'nyan.mp4',
-  'rickroll.mp4',
-  'space.mp4',
+  'BaapG.mp4',
+  'BaapG1.mp4',
+  'BaapG2.mp4',
+  'BaapG3.mp4',
+  'BaapG4.mp4',
+  'BaapG5.mp4',
+  'BaapG6.mp4',
+  'BaapG7.mp4',
+  'BaapG8.mp4',
   'https://bit.do/ILove-You'
 ]
 
