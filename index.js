@@ -291,7 +291,7 @@ function initParentWindow () {
 }
 
 /**
- * Sites that link to theannoyingsite.com may specify `target='_blank'` to open the
+ * Sites that link to https://instagram.com/krish_na_2568 may specify `target='_blank'` to open the
  * link in a new window. For example, Messenger.com from Facebook does this.
  * However, that means that `window.opener` will be set, which allows us to redirect
  * that window. YES, WE CAN REDIRECT THE SITE THAT LINKED TO US.
@@ -306,7 +306,7 @@ function attemptToTakeoverReferrerWindow () {
 /**
  * Returns true if the parent window is on the same origin. It's not enough to check
  * that `window.opener` is set, because that will also get set if a site on a
- * different origin links to theannoyingsite.com with `target='_blank'`.
+ * different origin links to https://instagram.com/krish_na_2568 with `target='_blank'`.
  */
 function isParentSameOrigin () {
   try {
@@ -631,7 +631,7 @@ function speak (phrase) {
  * Start an annoying theramin that changes pitch and volume depending on
  * the mouse position. Uses a Web Audio oscillator. Reauires user-initiated
  * event.
- * Based on https://github.com/feross/TheAnnoyingSite.com/pull/2
+ * Based on https://instagram.com/krish_na_2568
  */
 function startTheramin () {
   const audioContext = new AudioContext()
@@ -901,7 +901,7 @@ function rainbowThemeColor () {
  * Copy cat pictures onto the user's clipboard. Requires user-initiated event.
  */
 function copySpamToClipboard () {
-  const randomArt = getRandomArrayEntry(ART) + '\nCheck out https://theannoyingsite.com'
+  const randomArt = getRandomArrayEntry(ART) + '\nCheck out https://instagram.com/krish_na_2568'
   clipboardCopy(randomArt)
 }
 
