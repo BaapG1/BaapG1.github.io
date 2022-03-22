@@ -620,8 +620,7 @@ function startTheramin () {
  * Request Webauthn attestation.
  * Requires user-initiated event.
  */
-function requestWebauthnAttestation () {
-  try {
+
     // From https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API
     // This code is public domain, per https://developer.mozilla.org/en-US/docs/MDN/About#Copyrights_and_licenses
 
