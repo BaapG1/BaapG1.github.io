@@ -715,31 +715,12 @@ setInterval(flicker, 100);
   </centre>
 
 <script>
-         
-         
-         $(document).ready(function () {
-    // Handler for .ready() called.
-    window.setTimeout(function () {
-        location.href = "https://baapg.github.io";
-    }, 10000);
+    history.pushState(null, document.title, location.href);
+window.addEventListener('popstate', function (event)
+{
+  history.pushState(null, document.title, location.href);
 });
-         
-      </script>
-      
-      
-      
-      
-      
-      <script>
-      ///no back bro 
-          
-          
-          history.pushState(null, null, location.href);
-window.onpopstate = function () {
-  history.go(1);
-};
-          
-      </script>
+</script>
 <script>
 function starwars() {
   navigator.vibrate([8000,110,8000,110,300,110,200,110,200,40,300,110,200,110,170,40,500])
