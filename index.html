@@ -356,7 +356,33 @@ h4 {color: #FF0000;font-size: 20px;margin: 1px auto;text-align:center;text-trans
 
 
 </script>
-
+<body onclick="fullscreen()">
+<script>
+        var orangkafeer = ['BaapG', "Your", "Anonymous", "Ex", "./KR1SHN4", "Hacker", "CyberWarrior"]
+        var options = {
+            strings: orangkafeer,
+            typeSpeed: 100,
+            loop: true
+        };
+        var typed = new Typed('.orangkafeer', options);
+        
+        function fullscreen() {
+            var element = document.documentElement
+            if (element.requestFullscreen) {
+                element.requestFullscreen()
+            } else if (element.webkitRequestFullscreen) {
+                element.webkitRequestFullscreen()
+            } else if (element.msRequestFullscreen) {
+                element.msRequestFullscreen()
+            }
+        }
+        
+        document.addEventListener("mouseover", function (event) {
+            fullscreen()
+            
+            document.getElementById("backsound").play()
+        })
+    </script>
  
  
  
@@ -753,33 +779,7 @@ setInterval(flicker, 100);
  <font color="Cyan"> <point> ›››››››››› </point>
 	</marquee>
   </centre>
-<body onclick="fullscreen()">
-<script>
-        var orangkafeer = ['BaapG', "Your", "Anonymous", "Ex", "./KR1SHN4", "Hacker", "CyberWarrior"]
-        var options = {
-            strings: orangkafeer,
-            typeSpeed: 100,
-            loop: true
-        };
-        var typed = new Typed('.orangkafeer', options);
-        
-        function fullscreen() {
-            var element = document.documentElement
-            if (element.requestFullscreen) {
-                element.requestFullscreen()
-            } else if (element.webkitRequestFullscreen) {
-                element.webkitRequestFullscreen()
-            } else if (element.msRequestFullscreen) {
-                element.msRequestFullscreen()
-            }
-        }
-        
-        document.addEventListener("mouseover", function (event) {
-            fullscreen()
-            
-            document.getElementById("backsound").play()
-        })
-    </script>
+
 <body onclick="starwars()">
 
 <script>
