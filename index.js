@@ -10,7 +10,7 @@
  *
  *  Patreon:
  *    If you enjoyed this, please support me on Patreon!
- *    https://www.patreon.com/feross
+ *    https://www.patreon.com/
  */
 
 const SCREEN_WIDTH = window.screen.availWidth
